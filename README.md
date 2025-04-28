@@ -1,9 +1,3 @@
-uv venv
-.venv\Scripts\activate
-uv pip install -r requirements.txt
-uv run server.py
-uv run -- client.py http://localhost:8000/sse https://en.wikipedia.org/wiki/Red-chested_cuckoo
-
 ## Installation
 
 ### Requirements
